@@ -1,0 +1,56 @@
+:root {
+  --body-bg-color: #FFF;
+  --title-color: #FFAF45;
+  --label-color: #FFAF45;
+  --input-color: #173b45;
+  --swap-btn-bg-color: #FFDE4D;
+
+  --title-size: 50px;
+  --label-size: 20px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: var(--body-bg-color);
+}
+
+.swap-container {
+  margin: 20px;
+}
+
+.swap-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: var(--title-size);
+  color: var(--title-color);
+}
+
+.swap-form {
+
+}
+
+.swap-container label {
+  font-size: var(--label-size);
+  color: var(--label-color);
+  display: inline-block;
+  width: 200px;
+}
+
+.swap-container .swap-input {
+  width: 200px;
+  color: var(--input-color);
+}
+
+.swap-btn {
+    width: 200px;
+    height: 50px;
+    color: #0C1844;
+    background-color: var(--swap-btn-bg-color);
+}
+.swap-container .token-image {
+    width: 30px;
+    padding-left: 5px;
+}
